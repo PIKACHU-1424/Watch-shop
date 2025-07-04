@@ -1,0 +1,108 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #d2bfbf;
+}
+
+
+h1 {
+  color: #333;
+}
+
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: auto;
+}
+
+.watch-card {
+  background-color: rgb(215, 199, 199);
+  padding: 10px;
+  width: 22;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 5px gray;
+  transition: transform 0.2s;
+}
+
+.watch-card:hover {
+  transform: scale(1.03);
+}
+
+.watch-card img {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#loginSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#loginForm input {
+  width: 250px;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.details {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.details img {
+  width: 250px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+
+#paymentOptions {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.thanks {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
